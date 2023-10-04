@@ -17,7 +17,7 @@ export default {
   methods: {
     openConfirm() {
       // alert("hi");
-      console.log("hi");
+      // console.log("hi");
       const a = "등록";
       const b = `입력한 항목을 최종 등록하시겠습니까?\n(발급일과 종료일을 꼭 확인해주세요.)`;
       this.$confirm(a, b)
