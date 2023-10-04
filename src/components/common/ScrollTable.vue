@@ -14,9 +14,6 @@
       @item-selected="(item) => selectedItem('searched', item)"
       @toggle-select-all="(all) => selectedAll('searched', all)"
     >
-      <!-- <template v-slot:tbody="{ items }">
-        <tr :items="items" v-for="item in items" :key="item.name"></tr>
-      </template> -->
     </v-data-table>
   </div>
 </template>
